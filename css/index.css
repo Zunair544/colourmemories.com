@@ -1,0 +1,86 @@
+*, body {
+    padding: 0px;
+    margin: 0px;
+}
+.main-container{
+    margin: 
+}
+.main-container .inner-container {
+    max-width: 744px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.main-container .inner-container header {
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 131px 1fr;
+    grid-gap: 60px;
+}
+.main-container header .company-name {
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+}
+.main-container .inner-container header .company-name .menu{
+    height: 31px;
+    background-color: #fcb040;
+    display: inline-block;
+}
+.main-container .inner-container header .company-name .menu ul {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.main-container .inner-container header .company-name .menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 91px;
+}
+.main-container .inner-container header .company-name .menu ul li:last-child {
+    margin: 0;
+}
+.main-container .inner-container header .company-name .menu ul li a {
+    color: white;
+    display: block;
+    line-height: 31px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.main-container .inner-container header .company-name .menu ul li a:hover {
+    color: black;
+}
+.main-container .inner-container .abc {
+    margin-bottom: 50px;
+}
+.main-container .inner-container .logo-2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main-container h1 {
+    color: #58585a;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.main-container .content{
+    color: #58585a;
+    font-size: 14px;
+    margin-bottom: 21px;
+}
+.main-container footer .footer-menu ul li {
+    display: inline-block;
+    border-right: 1px solid #58585a;
+    margin-bottom: 3px;
+}
+.main-container footer .footer-menu ul li:last-child {
+    border: 0;
+}
+.main-container footer .footer-menu ul li a {t
+    text-decoration: none;
+    color: #f1592a;
+    margin-right: 4px;
+}
+.main-container footer {
+    color: #58585a;
+    font-size: 12.77px;
+    background-color: #dcdada;
+}
